@@ -142,6 +142,9 @@ a {
           box-sizing: border-box;
 }
 
+.s1 {
+  margin-bottom: 100px;
+}
 .s1 .container {
   max-width: 1146px;
   width: 95%;
@@ -310,4 +313,74 @@ a {
 }
 .s1 .container .formdiv form .inputsdiv #mybutton:hover {
   background-color: #1a30ee;
+}
+
+.s2 {
+  margin-bottom: 100px;
+}
+.s2 .container {
+  max-width: 1146px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .s2 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+}
+.s2 .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s2 .container .card .circle {
+  background-color: #5968f4;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+.s2 .container .card p {
+  color: #4e4d54;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.s2 .container .card a {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
 }/*# sourceMappingURL=global.css.map */
