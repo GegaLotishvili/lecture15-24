@@ -1,0 +1,117 @@
+.s1 {
+    .container {
+        max-width: 1146px;
+        width: 95%;
+        margin: 0 auto;
+        .infodiv {
+            width: 371px;
+            margin-top: 57px;
+            margin-bottom: 57px;
+            @media (max-width: 850px) {
+                text-align: center;
+                width: 100%;
+            }
+            h6 {
+                color: #5863e3;
+                font-family: Helvetica;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 7px;
+            }
+            h2 {
+                color: #000;
+                font-family: Helvetica;
+                font-size: 49px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .formdiv {
+            ::placeholder {
+                color: #99999a;
+                font-family: Helvetica;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            form {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                @media (max-width: 850px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .textareadiv {
+                    // border: 2px solid red;
+                    max-width: 756px;
+                    width: 100%;
+                    height: 300px;
+                    @media (max-width: 850px) {
+                        max-width: 100%;
+                    }
+                    textarea {
+                        width: 100%;
+                        height: 100%;
+                        resize: none;
+                        border: 2px solid rgba(212, 211, 211, 0.3);
+                        background: #f8f8f8;
+                        padding: 23px 21px;
+                        outline: none;
+                        color: black;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+                .inputsdiv {
+                    // border: 2px solid red;
+                    width: 370px;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @media (max-width: 850px) {
+                        width: 100%;
+                    }
+                    input {
+                        width: 370px;
+                        height: 60px;
+                        border: 2px solid rgba(212, 211, 211, 0.3);
+                        background: #f8f8f8;
+                        padding: 21px 19px;
+                        outline: none;
+                        color: black;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        @media (max-width: 850px) {
+                            width: 100%;
+                        }
+                    }
+                    #mybutton {
+                        background-color: #5968f4;
+                        color: #fbfbff;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #1a30ee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
